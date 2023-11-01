@@ -15,11 +15,20 @@ body{
 .wrapper{
     margin: 150px auto;
     width: 70%;
-
 }
 img{
     max-width: 300px;
+    float: left;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .box-text{
     color: #fff;
+}
+.box-text h2{
+    font-size: 42px;
+}
+.box-text p{
+    font-size: 16px;
 }
