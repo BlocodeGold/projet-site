@@ -1,15 +1,25 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 body{
-    color: aliceblue;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    min-height: 100vh; 
+    background-color: rgb(116, 24, 24);
 }
-main{
-    background-color: rgba(255, 255, 255, 0.329);
-    width: 600px;
-    margin: auto;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.395);
-    border-radius: 5px;
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+
+}
+img{
+    max-width: 300px;
+}
+.box-text{
+    color: #fff;
 }
